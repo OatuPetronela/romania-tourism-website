@@ -1,5 +1,5 @@
 var typed = new Typed(".typing", {
-    strings: ["", "România"],
+    strings: ["", "Brașov"],
     typeSpeed: 100,
     BackSpeed: 60,
     loop: true,

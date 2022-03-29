@@ -7,109 +7,105 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.js" integrity="sha512-ggJ7yQCnXifbDXFFfyNhegaNXkkPMP+0cxMDobX6pABvU4zrqD+NMXxrGoAK9iANboRjpR4ajwWHCCfJXJFpJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <title>Explore</title>
 </head>
 
-<body class="bg-places">
-
-    <aside>
-        <img src="/image/logo..png" class="logo">
-        <ul>
-            <li><a href="/pages/index.html">Home</a></li>
-            <li><a href="/pages/places.html">Places</a></li>
-            <li><a href="#">Video</a></li>
-            <li><a href="#">Locations</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Book</a></li>
-            <li><a href="#">Photos</a></li>
-        </ul>
-        <a href="#" class="special">See more</a>
-    </aside>
-    <div class="container">
-        <h1 class="h1">MOST POPULAR <span style="color:red" ;>PLACES</span></h1>
-        <div class="card-group">
-            <div class="row">
-                <div class="col-4">
-                    <div class="card">
-                        <img src="https://media.istockphoto.com/photos/ro/peisaj-colorat-de-toamna-cu-vale-ceata-holbav-transilvania-romania-europa-id596796678?s=612x612" class="card-img-top rounded" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                Read about this location
-                              </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="card">
-                        <img src="https://images.unsplash.com/photo-1613667514864-3cfc757961cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHJvbWFuaWF8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" class="card-img-top rounded" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
-                            </p>
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                Read about this location
-                              </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="card">
-                        <img src="https://images.unsplash.com/photo-1534371020656-6b85825f2b1a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cm9tYW5pYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top rounded" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.
-                            </p>
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                Read about this location
-                              </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="card">
-                        <img src="..." class="card-img-top rounded" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.
-                            </p>
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                Read about this location
-                              </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="card">
-                        <img src="..." class="card-img-top rounded" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.
-                            </p>
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                Read about this location 
-                              </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<body class="body-places">
+    <div class="row">
+        <div class="col-md-2">
+            <aside>
+                <!-- <img src="/image/logo..png" class="logo"> -->
+                <ul>
+                    <li><a href="/pages/index.html">Acasă</a></li>
+                    <li><a href="#">Despre</a></li>
+                    <li><a href="/pages/places.html">Orașe</a></li>
+                    <li><a href="#">Video</a></li>
+                    <li><a href="#">Anichități</a></li>
+                    <li><a href="#">Fotografii</a></li>
+                </ul>
+            </aside>
         </div>
-    </div>
-
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    ...
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+        <div class="col-md-9">
+            <h1 class="h1">CELE MAI POPULARE <span style="color:red" ;>ORAȘE</span></h1>
+            <div class="card-group">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card">
+                            <img src="https://cdn.theculturetrip.com/wp-content/uploads/2017/10/brasov-min.jpg" class="card-img-top rounded" alt="Brașov">
+                            <div class="card-body">
+                                <h3 class="card-title text-center"><b>Brașov</b></h3>
+                                <h5 class="card-text">Braşovul este situat în inima României, în curbura arcului Carpatic și beneficiază din plin...</h5>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <a href="/pages/places/brasov.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Citește mai mult...</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1613667514864-3cfc757961cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHJvbWFuaWF8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" class="card-img-top rounded" alt="Iași">
+                            <div class="card-body">
+                                <h3 class="card-title text-center"><b>Iași</b></h3>
+                                <h5 class="card-text">Iasiul este cel mai important centru politic, economic si cultural al provinciei Moldova...</h5>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <a href="/pages/places/iasi.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Citește mai mult...</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card">
+                            <img src="/image/orașe/prahova/card-prahova.jpg" class="card-img-top rounded" alt="Prahova">
+                            <div class="card-body">
+                                <h3 class="card-title text-center"><b>Prahova</b></h3>
+                                <h5 class="card-text">Prahova are o mare varietate de forme de relief, de la câmpie la deal la munte. Fie că vorbim...
+                                </h5>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <a href="/pages/places/prahova.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Citește mai mult...</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card">
+                            <img src="/image/orașe/cluj/card-cj.jpg" class="card-img-top rounded" alt="Cluj-Napoca">
+                            <div class="card-body">
+                                <h3 class="card-title text-center"><b>Cluj-Napoca</b></h3>
+                                <h5 class="card-text">Cluj-Napoca, cel mai mare oraș din regiunea Transilvaniei, își are originile într-o așezare...
+                                </h5>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <a href="/pages/places/cluj.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Citește mai mult...</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card">
+                            <img src="/image/orașe/bucurești/card-buc.jpg" class="card-img-top rounded" alt="Bucuresti">
+                            <div class="card-body">
+                                <h3 class="card-title text-center"><b>București</b></h3>
+                                <h5 class="card-text">Bucureștiul, cel mai mare oraș și capitală a României, este astăzi o metropolă plină de...
+                                </h5>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <a href="/pages/places/bucuresti.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Citește mai mult...</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card">
+                            <img src="/image//orașe/constanta/card-ct.jpg.crdownload" class="card-img-top rounded" alt="Constanta">
+                            <div class="card-body">
+                                <h3 class="card-title text-center"><b>Constanța</b></h3>
+                                <h5 class="card-text">O metropolă străveche, cel mai vechi port al României locuit continuu și cel mai mare port...
+                                </h5>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <a href="/pages/places/constanta.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Citește mai mult...</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
